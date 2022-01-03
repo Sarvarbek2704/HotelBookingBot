@@ -32,7 +32,7 @@ def _execute_read_query(connection, query, params):
 
 def unload_vacant_rooms(room_type, count, arrival_date, departure_date):
     con = connection_pool.getconn()
-    select_vacant = "SELECT * FROM public.vacant_room(%s,%s,%s,%s)"
+    select_vacant = "SELECT * FROM vacant_room(%s,%s,%s,%s)"
     params = [room_type, count, arrival_date, departure_date]
     result = _execute_read_query(con, select_vacant, params)
     connection_pool.putconn(con)
@@ -41,7 +41,7 @@ def unload_vacant_rooms(room_type, count, arrival_date, departure_date):
 
 def unload_description(room_number):
     con = connection_pool.getconn()
-    select_description = "SELECT description FROM public.hotel_rooms where room_number = %s"
+    select_description = "SELECT description FROM hotel_rooms where room_number = %s"
     result = _execute_read_query(con, select_description, [room_number])
     connection_pool.putconn(con)
     return result[0][0]
