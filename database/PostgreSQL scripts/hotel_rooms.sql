@@ -1,165 +1,162 @@
-INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (3, 'Standart', 8000, 7, 3, 'Просторные номера "Standart" предлагают все необходимые для путешественников удобства, в том числе хорошо освещенный рабочий стол с доступом к беспроводному Интернету и набор канцелярских припринадлежностей.
+INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (3, 'Standart', 8000, 7, 3, 'The spacious Standart Rooms offer all the amenities travelers need, including a well-lit work desk with wireless Internet access and a set of office supplies.
+        Room size: from 27 sq.m
 
-        Площадь номера: от 27 кв.м
+        At your disposal:
 
-        В Вашем распоряжении:
+        • two single beds,
+        •  Desktop,
+        •  air conditioner,
+        •  telephone,
+        •  satellite television,
+        • high-speed free internet access,
+        • safe,
+        • wardrobe,
+        •  mini bar.
+        In the bathroom: bath, hairdryer and all the necessary bath accessories.
 
-        •  две полутороспальные кровати,
-        •  рабочий стол,
-        •  кондиционер,
-        •  телефон,
-        •  спутниковое телевидение,
-        •  высокоскоростной бесплатный доступ в интернет,
-        •  сейф,
-        •  гардероб,
-        •  мини-бар.
-        В ванной комнате: ванна, фен и все необходимые банные принадлежности.
+        Complimentary, drinking water is provided upon check-in (1.5 l)');
+INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (8, 'Lux', 17000, 13, 5, 'A distinctive feature of this category is a unique combination of a luxurious interior and a majestic view of the historical center of thousand-year-old Kazan, which will not leave anyone indifferent.
+        from 50 sq.m
+        Guests have at their disposal:
+        • double bed King Size,
+        •  Desktop,
+        •  air conditioner,
+        •  telephone,
+        •  satellite television,
+        • high-speed free internet access,
+        • safe,
+        • wardrobe,
+        •  mini bar.
+        In the bathroom: bath, hairdryer and all the necessary bath accessories.
 
-        Комплиментарно, при заселении предоставляется питьевая вода (1,5л)');
-INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (8, 'Lux', 17000, 13, 5, 'Отличительная особенность данной категории - это уникальное сочетание роскошного интерьера и величественного вида на исторический центр тысячелетней Казани, которое не оставит никого равнодушным.
-        от 50 кв.м
-        В распоряжении гостей:
-        •  двуспальная кровать размера King Size,
-        •  рабочий стол,
-        •  кондиционер,
-        •  телефон,
-        •  спутниковое телевидение,
-        •  высокоскоростной бесплатный доступ в интернет,
-        •  сейф,
-        •  гардероб,
-        •  мини-бар.
-        В ванной комнате: ванна, фен и все необходимые банные принадлежности.
+        Complimentary, drinking water is provided upon check-in (1.5 l)');
+INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (7, 'Lux', 15000, 10, 4, 'A distinctive feature of this category is a unique combination of a luxurious interior and a majestic view of the historical center of thousand-year-old Kazan, which will not leave anyone indifferent.
+        from 50 sq.m
+        Guests have at their disposal:
+        • double bed King Size,
+        •  Desktop,
+        •  air conditioner,
+        •  telephone,
+        •  satellite television,
+        • high-speed free internet access,
+        • safe,
+        • wardrobe,
+        •  mini bar.
+        In the bathroom: bath, hairdryer and all the necessary bath accessories.
 
-        Комплиментарно, при заселении предоставляется питьевая вода (1,5л)');
-INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (7, 'Lux', 15000, 10, 4, 'Отличительная особенность данной категории - это уникальное сочетание роскошного интерьера и величественного вида на исторический центр тысячелетней Казани, которое не оставит никого равнодушным.
-        от 50 кв.м
-        В распоряжении гостей:
-        •  двуспальная кровать размера King Size,
-        •  рабочий стол,
-        •  кондиционер,
-        •  телефон,
-        •  спутниковое телевидение,
-        •  высокоскоростной бесплатный доступ в интернет,
-        •  сейф,
-        •  гардероб,
-        •  мини-бар.
-        В ванной комнате: ванна, фен и все необходимые банные принадлежности.
+        Complimentary, drinking water is provided upon check-in (1.5 l)');
+INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (9, 'President', 50000, 25, 13, 'Presidential suite - a four-room apartment with its own kitchen and living room - the embodiment of elegance and classics. This spacious room offers a beautiful view of the central street of Kazan. The room has large comfortable beds, an equipped workplace, modern technical equipment, a bathroom with a jacuzzi.
+        Room size: 212 sq.m
+        Guests have at their disposal:
+        • double beds of the King Size,
+        •  Desktop,
+        •  air conditioner,
+        •  telephone,
+        •  satellite television,
+        • high-speed free internet access,
+        • safe,
+        • wardrobe,
+        •  mini bar.
+        In the bathroom: jacuzzi, hairdryer and all the necessary bath accessories.');
+INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (1, 'Standart', 6000, 5, 2, 'The spacious Standart Rooms offer all the amenities travelers need, including a well-lit work desk with wireless Internet access and a set of office supplies.
 
-        Комплиментарно, при заселении предоставляется питьевая вода (1,5л)');
-INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (9, 'President', 50000, 25, 13, 'Президентский номер - четырёхкомнатные  апартаменты с собственной кухней и гостиной, - воплощение элегантности и классики. Просторный номер предлагает прекрасный вид на центральную улицу Казани. В номере имеются большие удобные кровати, оборудованное рабочее место, современное техническое оснащение, ванная комната с джакузи.
-        Площадь номера: 212 кв.м
-        В распоряжении гостей:
-        •  двуспальные кровати размера King Size,
-        •  рабочий стол,
-        •  кондиционер,
-        •  телефон,
-        •  спутниковое телевидение,
-        •  высокоскоростной бесплатный доступ в интернет,
-        •  сейф,
-        •  гардероб,
-        •  мини-бар.
-        В ванной комнате: джакузи, фен и все необходимые банные принадлежности.
+        Room size: from 27 sq.m
 
-        Комплиментарно, при заселении предоставляется питьевая вода (1,5л)');
-INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (1, 'Standart', 6000, 5, 2, 'Просторные номера "Standart" предлагают все необходимые для путешественников удобства, в том числе хорошо освещенный рабочий стол с доступом к беспроводному Интернету и набор канцелярских припринадлежностей.
+        At your disposal:
 
-        Площадь номера: от 27 кв.м
+        • two single beds,
+        •  Desktop,
+        •  air conditioner,
+        •  telephone,
+        •  satellite television,
+        • high-speed free internet access,
+        • safe,
+        • wardrobe,
+        •  mini bar.
+        In the bathroom: bath, hairdryer and all the necessary bath accessories.
 
-        В Вашем распоряжении:
+        Complimentary, drinking water is provided upon check-in (1.5 l)');
+INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (2, 'Standart', 5000, 4, 2, 'The spacious Standart Rooms offer all the amenities travelers need, including a well-lit work desk with wireless Internet access and a set of office supplies.
 
-        •  две полутороспальные кровати,
-        •  рабочий стол,
-        •  кондиционер,
-        •  телефон,
-        •  спутниковое телевидение,
-        •  высокоскоростной бесплатный доступ в интернет,
-        •  сейф,
-        •  гардероб,
-        •  мини-бар.
-        В ванной комнате: ванна, фен и все необходимые банные принадлежности.
+        Room size: from 27 sq.m
 
-        Комплиментарно, при заселении предоставляется питьевая вода (1,5л)');
-INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (2, 'Standart', 5000, 4, 2, 'Просторные номера "Standart" предлагают все необходимые для путешественников удобства, в том числе хорошо освещенный рабочий стол с доступом к беспроводному Интернету и набор канцелярских припринадлежностей.
+        At your disposal:
 
-        Площадь номера: от 27 кв.м
+        • two single beds,
+        •  Desktop,
+        •  air conditioner,
+        •  telephone,
+        •  satellite television,
+        • high-speed free internet access,
+        • safe,
+        • wardrobe,
+        •  mini bar.
+        In the bathroom: bath, hairdryer and all the necessary bath accessories.
 
-        В Вашем распоряжении:
+        Complimentary, drinking water is provided upon check-in (1.5 l)');
+INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (5, 'Standart', 5000, 4, 2, 'The spacious Standart Rooms offer all the amenities travelers need, including a well-lit work desk with wireless Internet access and a set of office supplies.
 
-        •  две полутороспальные кровати,
-        •  рабочий стол,
-        •  кондиционер,
-        •  телефон,
-        •  спутниковое телевидение,
-        •  высокоскоростной бесплатный доступ в интернет,
-        •  сейф,
-        •  гардероб,
-        •  мини-бар.
-        В ванной комнате: ванна, фен и все необходимые банные принадлежности.
+        Room size: from 27 sq.m
 
-        Комплиментарно, при заселении предоставляется питьевая вода (1,5л)');
-INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (5, 'Standart', 5000, 4, 2, 'Просторные номера "Standart" предлагают все необходимые для путешественников удобства, в том числе хорошо освещенный рабочий стол с доступом к беспроводному Интернету и набор канцелярских припринадлежностей.
+        At your disposal:
 
-        Площадь номера: от 27 кв.м
+        • two single beds,
+        •  Desktop,
+        •  air conditioner,
+        •  telephone,
+        •  satellite television,
+        • high-speed free internet access,
+        • safe,
+        • wardrobe,
+        •  mini bar.
+        In the bathroom: bath, hairdryer and all the necessary bath accessories.
 
-        В Вашем распоряжении:
+        Complimentary, drinking water is provided upon check-in (1.5 l)');
+INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (6, 'Lux', 19000, 15, 5, 'A distinctive feature of this category is a unique combination of a luxurious interior and a majestic view of the historical center of thousand-year-old Kazan, which will not leave anyone indifferent.
+        from 50 sq.m
+        Guests have at their disposal:
+        • double bed King Size,
+        •  Desktop,
+        •  air conditioner,
+        •  telephone,
+        •  satellite television,
+        • high-speed free internet access,
+        • safe,
+        • wardrobe,
+        •  mini bar.
+        In the bathroom: bath, hairdryer and all the necessary bath accessories.
 
-        •  две полутороспальные кровати,
-        •  рабочий стол,
-        •  кондиционер,
-        •  телефон,
-        •  спутниковое телевидение,
-        •  высокоскоростной бесплатный доступ в интернет,
-        •  сейф,
-        •  гардероб,
-        •  мини-бар.
-        В ванной комнате: ванна, фен и все необходимые банные принадлежности.
+        Complimentary, drinking water is provided upon check-in (1.5 l)');
+INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (4, 'Standart', 9000, 8, 5, 'The spacious Standart Rooms offer all the amenities travelers need, including a well-lit work desk with wireless Internet access and a set of office supplies.
 
-        Комплиментарно, при заселении предоставляется питьевая вода (1,5л)');
-INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (6, 'Lux', 19000, 15, 5, 'Отличительная особенность данной категории - это уникальное сочетание роскошного интерьера и величественного вида на исторический центр тысячелетней Казани, которое не оставит никого равнодушным.
-        от 50 кв.м
-        В распоряжении гостей:
-        •  двуспальная кровать размера King Size,
-        •  рабочий стол,
-        •  кондиционер,
-        •  телефон,
-        •  спутниковое телевидение,
-        •  высокоскоростной бесплатный доступ в интернет,
-        •  сейф,
-        •  гардероб,
-        •  мини-бар.
-        В ванной комнате: ванна, фен и все необходимые банные принадлежности.
+        Room size: from 27 sq.m
 
-        Комплиментарно, при заселении предоставляется питьевая вода (1,5л)');
-INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (4, 'Standart', 9000, 8, 5, 'Просторные номера "Standart" предлагают все необходимые для путешественников удобства, в том числе хорошо освещенный рабочий стол с доступом к беспроводному Интернету и набор канцелярских припринадлежностей.
+        At your disposal:
 
-        Площадь номера: от 27 кв.м
+        • two single beds,
+        •  Desktop,
+        •  air conditioner,
+        •  telephone,
+        •  satellite television,
+        • high-speed free internet access,
+        • safe,
+        • wardrobe,
+        •  mini bar.
+        In the bathroom: bath, hairdryer and all the necessary bath accessories.
 
-        В Вашем распоряжении:
+        Complimentary, drinking water is provided upon check-in (1.5 l)');
+INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (10, 'President', 43000, 20, 10, 'Presidential suite - a four-room apartment with its own kitchen and living room - the embodiment of elegance and classics. This spacious room offers a beautiful view of the central street of Kazan. The room has large comfortable beds, an equipped workplace, modern technical equipment, a bathroom with a jacuzzi.
+        Room size: 212 sq.m
+        Guests have at their disposal:
+        • double beds of the King Size,
+        •  Desktop,
+        •  air conditioner,
+        •  telephone,
+        •  satellite television,
+        • high-speed free internet access,
+        • safe,
+        • wardrobe,
+        •  mini bar.
+        In the bathroom: jacuzzi, hairdryer and all necessary bath accessories
 
-        •  две полутороспальные кровати,
-        •  рабочий стол,
-        •  кондиционер,
-        •  телефон,
-        •  спутниковое телевидение,
-        •  высокоскоростной бесплатный доступ в интернет,
-        •  сейф,
-        •  гардероб,
-        •  мини-бар.
-        В ванной комнате: ванна, фен и все необходимые банные принадлежности.
-
-        Комплиментарно, при заселении предоставляется питьевая вода (1,5л)');
-INSERT INTO public.hotel_rooms (room_number, type, price_per_day, max_people, count_of_beds, description) VALUES (10, 'President', 43000, 20, 10, 'Президентский номер - четырёхкомнатные  апартаменты с собственной кухней и гостиной, - воплощение элегантности и классики. Просторный номер предлагает прекрасный вид на центральную улицу Казани. В номере имеются большие удобные кровати, оборудованное рабочее место, современное техническое оснащение, ванная комната с джакузи.
-        Площадь номера: 212 кв.м
-        В распоряжении гостей:
-        •  двуспальные кровати размера King Size,
-        •  рабочий стол,
-        •  кондиционер,
-        •  телефон,
-        •  спутниковое телевидение,
-        •  высокоскоростной бесплатный доступ в интернет,
-        •  сейф,
-        •  гардероб,
-        •  мини-бар.
-        В ванной комнате: джакузи, фен и все необходимые банные принадлежности.
-
-        Комплиментарно, при заселении предоставляется питьевая вода (1,5л)');
+        Complimentary, drinking water is provided upon check-in (1.5 l)');
