@@ -1,4 +1,3 @@
-import os
 
 database = 'd2nrmd449n6ina'
 user = 'cvkpuwtzesdkxs'

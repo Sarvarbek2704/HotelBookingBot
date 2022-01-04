@@ -18,7 +18,7 @@ from keyboards import keyboard_with_back_button, back_button, \
 
 
 def is_date(date):
-    return re.match(r'^(3[01]|[12][0-9]|0?[1-9])\.(1[0-2]|0?[1-9])\.(?:[0-9]{2})[0-9]{2}$', date)
+    return re.match(r'^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$', date)
 
 
 def is_phone_humber(number):
@@ -32,12 +32,12 @@ def is_phone_humber(number):
 async def choose_arrival_date(message: types.Message):
     await RoomsForm.getting_arrival_date.set()
     await message.answer(
-        'Enter your check-in date in the following format: "DD.MM.YYYY" without quotes,example: "25.05.2020"',
+        'Enter your check-in date in the following format: "YYYY-MM-DD" without quotes,example: "2022-01-03"',
         reply_markup=types.ReplyKeyboardRemove())
 
 
 def is_valid_date(date):
-    return datetime.date.today() <= datetime.datetime.strptime(date, '%d.%m.%Y').date()
+    return datetime.date.today() <= datetime.datetime.strptime(date, '%Y-%m-%d').date()
 
 
 @dp.message_handler(lambda message: is_date(message.text),
@@ -50,7 +50,7 @@ async def choose_date_of_departure(message: types.Message, state: FSMContext):
 
     await RoomsForm.getting_departure_date.set()
     await state.update_data(arrival_date=message.text)
-    await message.answer('Enter your departure date in the following format: "DD.MM.YYYY" without quotes, example: "25.05.2020"')
+    await message.answer('Enter your departure date in the following format: "YYYY-MM-DD" without quotes, example: "2022-01-03"')
 
 
 @dp.message_handler(lambda message: not is_date(message.text),
@@ -60,8 +60,8 @@ async def choose_date_invalid(message: types.Message):
 
 
 def is_valid_staying_date(arrival_date, departure_date):
-    return datetime.datetime.strptime(arrival_date, '%d.%m.%Y').date() < \
-           datetime.datetime.strptime(departure_date, '%d.%m.%Y').date()
+    return datetime.datetime.strptime(arrival_date, '%Y-%m-%d').date() < \
+           datetime.datetime.strptime(departure_date, '%Y-%m-%d').date()
 
 
 @dp.message_handler(lambda message: is_date(message.text),
